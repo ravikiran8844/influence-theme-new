@@ -6,6 +6,32 @@
       "settings": {
       }
     },
+    "1a4d0005-aaf2-41ca-a442-cd8bd706641e": {
+      "type": "slideshow",
+      "blocks": {
+        "cb0ac92c-b60d-48ab-b7ae-3df1517ef3be": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hher-23-3_1.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/hher-23-5_1.jpg",
+            "heading": "NEW BASICS",
+            "sub_heading": "<p>THE ART OF STYLE<\/p>",
+            "button_text1": "SHOP NEW IN",
+            "button_link1": "",
+            "button1_color": "button--secondary",
+            "button_text2": "SHOP ALL",
+            "button_link2": "",
+            "button2_color": "button--secondary",
+            "text_position": "align-end justify-end"
+          }
+        }
+      },
+      "block_order": [
+        "cb0ac92c-b60d-48ab-b7ae-3df1517ef3be"
+      ],
+      "settings": {
+      }
+    },
     "cf086678-e5e3-4dd7-b59a-0707df3e16d9": {
       "type": "newsletter",
       "settings": {
@@ -21,6 +47,7 @@
   },
   "order": [
     "main",
+    "1a4d0005-aaf2-41ca-a442-cd8bd706641e",
     "cf086678-e5e3-4dd7-b59a-0707df3e16d9"
   ]
 }
