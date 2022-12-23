@@ -31,7 +31,6 @@
 
     <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'flickity.js' | asset_url }}" defer="defer"></script>
-
     {{ content_for_header }}
 
     {%- liquid
@@ -119,7 +118,7 @@
         margin: 0;
         font-size: 1.4rem;
         letter-spacing: 0.06rem;
-        line-height: 1.4;
+        line-height: 1.4rem;
         color: var(--color-body-text);
         background: var(--color-body-background);
         font-family: var(--font-body-family);
@@ -135,10 +134,8 @@
     {% endstyle %}
 
     {{ 'base.css' | asset_url | stylesheet_tag }}
-    {{ 'theme.css' | asset_url | stylesheet_tag }}
     {{ 'section.css' | asset_url | stylesheet_tag }}
     {{ 'flickity.css' | asset_url | stylesheet_tag }}
-
   </head>
 
   <body class="template-{{ template.name }}">
