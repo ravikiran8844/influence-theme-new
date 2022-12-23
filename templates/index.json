@@ -195,9 +195,9 @@
         "image_mobile": "shopify:\/\/shop_images\/homepage-stl.png",
         "background_color": "#ece2cc",
         "image_alignment": "row",
-        "caption_text": "Caption Text",
-        "heading_text": "MAKE A STATEMENT",
-        "paragraph_text": "<p>SHOP OUR NEW UTILITARIAN STYLE<\/p>",
+        "caption_text": "MAKE A STATEMENT",
+        "heading_text": "SHOP OUR NEW UTILITARIAN STYLE",
+        "paragraph_text": "",
         "button__text": "SHOP NOW",
         "button__link": "",
         "text_alignment": "text-center"
