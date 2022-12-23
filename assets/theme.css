@@ -1,0 +1,90 @@
+@media screen and (min-width: 749px) {
+    h2{
+        font-size: 80px;
+        line-height: normal;
+    }
+    h3{
+        font-size: 28px;
+    }
+  }
+  
+  @media screen and (max-width: 750px)  {
+    h2{
+        font-size: 32px;
+    }
+    h3{
+        font-size: 18px;
+    }
+  }
+
+.general h1,h2,h3,h4,h5,h6{
+color: #000000;
+}
+.general p{
+    color: #000000;
+}
+.general{
+    background-color: #FFFFFF;
+}
+
+.accent1{
+    background-color: #000000;
+}
+.accent1 h1,h2,h3,h4,h5,h6{
+    color: #FFFFFF;
+    }
+    .accent1 p{
+        color: #FFFFFF;
+    }
+   .accent1 button{
+    color: #000000;
+    background-color: #FFFFFF;
+    border: 2px solid #000000;
+   }
+   .accent1 button:hover{
+    background-color: #000000;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+   }
+
+    .accent2 h1,h2,h3,h4,h5,h6{
+        color: #000000;
+        }
+        .accent2 p{
+            color: #000000;
+        }
+        .accent2{
+            background-color: #E0E0E0;
+        }
+        .accent2 button{
+            color: #E0E0E0;
+            background-color: #000000;
+            border: 2px solid #E0E0E0;
+           }
+           .accent2 button:hover{
+            background-color: #E0E0E0;
+            color: #000000;
+            border: 2px solid #000000;
+           }
+
+        
+    .accent3 h1,h2,h3,h4,h5{
+        color: #000000;
+        }
+        .accent3 p{
+            color: #000000;
+        }
+        .accent3{
+            background-color: #F7F7F7;
+        }
+
+        .accent3 button{
+            color: #E0E0E0;
+            background-color: #000000;
+            border: 2px solid #E0E0E0;
+           }
+           .accent3 button:hover{
+            background-color: #E0E0E0;
+            color: #000000;
+            border: 2px solid #000000;
+           }

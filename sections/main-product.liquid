@@ -1,0 +1,36 @@
+<div
+  class="page-width grid mb-20">
+  <div
+    class="product_image grid--2-col-desktop grid__item">
+    <img
+      src="{{product.featured_image|img_url: 'large'}}">
+  </div>
+  <div
+    class="product_text grid--2-col-desktop grid__item">
+    <h2>{{ product.title }}</h2>
+    {% if product.available %}
+      <p>In Stock: Ready to Ship</p>
+    {% endif %}
+    <h4>{{ product.price | money_with_currency }}</h4>
+    <p>⭐⭐⭐⭐⭐</p>
+    <h4>Product Description</h4>
+    <p>{{ product.content }}</p>
+  </div>
+</div>
+<style>
+  .product_text {
+    width: 60vw;
+    padding: 20px;
+  }
+  .product_image {
+    padding: 10px;
+  }
+</style>
+
+{% schema %}
+  {
+    "name": "Product Page",
+    "class": "product",
+    "settings": []
+  }
+{% endschema %}

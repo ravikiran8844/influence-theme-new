@@ -1,0 +1,12 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-skeleton",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}
