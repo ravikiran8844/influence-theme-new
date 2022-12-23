@@ -180,6 +180,28 @@
       ],
       "settings": {
       }
+    },
+    "38717e48-a87d-415b-ab02-c5295a8901d3": {
+      "type": "featured_list",
+      "settings": {
+        "collection_id": "new-arrivals",
+        "product_limit": 8
+      }
+    },
+    "2a2942de-3da0-42f2-8552-7265d17ce581": {
+      "type": "image_with_text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/homepage-stl.png",
+        "image_mobile": "shopify:\/\/shop_images\/homepage-stl.png",
+        "background_color": "#ece2cc",
+        "image_alignment": "row",
+        "caption_text": "Caption Text",
+        "heading_text": "MAKE A STATEMENT",
+        "paragraph_text": "<p>SHOP OUR NEW UTILITARIAN STYLE<\/p>",
+        "button__text": "SHOP NOW",
+        "button__link": "",
+        "text_alignment": "text-center"
+      }
     }
   },
   "order": [
@@ -189,6 +211,8 @@
     "cf086678-e5e3-4dd7-b59a-0707df3e16d9",
     "6e2d7f39-2fe0-4859-a63f-0f15112e2201",
     "b3e02cd7-67e9-410e-859f-41d0c859496e",
-    "0b17c2bf-46ba-4d50-8b94-5fa58d66b36f"
+    "0b17c2bf-46ba-4d50-8b94-5fa58d66b36f",
+    "38717e48-a87d-415b-ab02-c5295a8901d3",
+    "2a2942de-3da0-42f2-8552-7265d17ce581"
   ]
 }
