@@ -202,6 +202,45 @@
         "button__link": "",
         "text_alignment": "text-center"
       }
+    },
+    "662b57ed-0892-4464-a961-d4e5e3326e39": {
+      "type": "testimonials",
+      "blocks": {
+        "ef7d2e80-c2f1-43f9-b050-0c53b14f88c7": {
+          "type": "testimonial_item",
+          "settings": {
+            "rating": "1",
+            "text": "",
+            "author_name": ""
+          }
+        },
+        "803c292f-460a-41d4-acd2-28925967b531": {
+          "type": "testimonial_item",
+          "settings": {
+            "rating": "1",
+            "text": "",
+            "author_name": ""
+          }
+        },
+        "a953834d-294e-4957-a62f-730580d38eff": {
+          "type": "testimonial_item",
+          "settings": {
+            "rating": "1",
+            "text": "",
+            "author_name": ""
+          }
+        }
+      },
+      "block_order": [
+        "ef7d2e80-c2f1-43f9-b050-0c53b14f88c7",
+        "803c292f-460a-41d4-acd2-28925967b531",
+        "a953834d-294e-4957-a62f-730580d38eff"
+      ],
+      "settings": {
+        "subheading": "DIRECT FROM THE CUSTOMERS",
+        "heading": "What our client says",
+        "background_color": ""
+      }
     }
   },
   "order": [
@@ -213,6 +252,7 @@
     "b3e02cd7-67e9-410e-859f-41d0c859496e",
     "0b17c2bf-46ba-4d50-8b94-5fa58d66b36f",
     "38717e48-a87d-415b-ab02-c5295a8901d3",
-    "2a2942de-3da0-42f2-8552-7265d17ce581"
+    "2a2942de-3da0-42f2-8552-7265d17ce581",
+    "662b57ed-0892-4464-a961-d4e5e3326e39"
   ]
 }
