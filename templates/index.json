@@ -120,6 +120,66 @@
       ],
       "settings": {
       }
+    },
+    "0b17c2bf-46ba-4d50-8b94-5fa58d66b36f": {
+      "type": "image_gallery",
+      "blocks": {
+        "6afe530e-9387-48f4-8c31-5af9a93c98a6": {
+          "type": "image-section",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Skirts.png",
+            "image_mobile": "shopify:\/\/shop_images\/Skirts.png",
+            "heading_text": "SKIRTS",
+            "heading_text_color": "#ffffff",
+            "paragraph_text": "",
+            "paragraph_text_color": "",
+            "button_text": "SHOP NOW",
+            "button_link": "shopify:\/\/collections\/skirts",
+            "button_text_color": "#121212",
+            "button_background_color": "#ffffff",
+            "text_position": "align-end justify-start"
+          }
+        },
+        "ac65f208-f4cc-4040-87ee-ec00732dc3c5": {
+          "type": "image-section",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Dresses.png",
+            "image_mobile": "shopify:\/\/shop_images\/Dresses.png",
+            "heading_text": "DRESSES",
+            "heading_text_color": "#ffffff",
+            "paragraph_text": "",
+            "paragraph_text_color": "",
+            "button_text": "SHOP NOW",
+            "button_link": "shopify:\/\/collections\/dresses",
+            "button_text_color": "#121212",
+            "button_background_color": "#ffffff",
+            "text_position": "align-end justify-start"
+          }
+        },
+        "e3b48ae9-3401-4669-93a0-0450afaf26e4": {
+          "type": "image-section",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Sale.png",
+            "image_mobile": "shopify:\/\/shop_images\/Sale.png",
+            "heading_text": "SALE",
+            "heading_text_color": "#ffffff",
+            "paragraph_text": "",
+            "paragraph_text_color": "",
+            "button_text": "SHOP NOW",
+            "button_link": "shopify:\/\/collections\/sale",
+            "button_text_color": "#121212",
+            "button_background_color": "#ffffff",
+            "text_position": "align-end justify-start"
+          }
+        }
+      },
+      "block_order": [
+        "6afe530e-9387-48f4-8c31-5af9a93c98a6",
+        "ac65f208-f4cc-4040-87ee-ec00732dc3c5",
+        "e3b48ae9-3401-4669-93a0-0450afaf26e4"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
@@ -128,6 +188,7 @@
     "d871f859-425e-47ab-852f-9a0533b30f3e",
     "cf086678-e5e3-4dd7-b59a-0707df3e16d9",
     "6e2d7f39-2fe0-4859-a63f-0f15112e2201",
-    "b3e02cd7-67e9-410e-859f-41d0c859496e"
+    "b3e02cd7-67e9-410e-859f-41d0c859496e",
+    "0b17c2bf-46ba-4d50-8b94-5fa58d66b36f"
   ]
 }
