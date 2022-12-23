@@ -294,11 +294,13 @@
         "6c1bb881-417b-4e67-b426-35f5dd779fd3": {
           "type": "image-section",
           "settings": {
-            "heading_text": "Heading Text",
+            "image": "shopify:\/\/shop_images\/HelloIMG1671331875226.png",
+            "image_mobile": "shopify:\/\/shop_images\/HelloIMG1671331875226.png",
+            "heading_text": "",
             "heading_text_color": "",
-            "paragraph_text": "<p>Image Gallery Paragraph Text.<\/p>",
+            "paragraph_text": "",
             "paragraph_text_color": "",
-            "button_text": "Button Text",
+            "button_text": "",
             "button_link": "",
             "button_text_color": "",
             "button_background_color": "",
