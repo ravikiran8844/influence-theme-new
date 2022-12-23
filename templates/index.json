@@ -1,1 +1,26 @@
-{"sections":{"main":{"type":"main-skeleton","settings":{}}},"order":["main"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-skeleton",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "cf086678-e5e3-4dd7-b59a-0707df3e16d9": {
+      "type": "newsletter",
+      "settings": {
+        "background_color": "#ece2cc",
+        "text_color": "",
+        "sub_heading": "Signup now",
+        "button_background_color": "#121212",
+        "button_text_color": "#ffffff",
+        "heading": "Get the newsletter",
+        "text_alignment": "center"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "cf086678-e5e3-4dd7-b59a-0707df3e16d9"
+  ]
+}
