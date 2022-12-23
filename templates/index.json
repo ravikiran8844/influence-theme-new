@@ -241,6 +241,20 @@
         "heading": "What our client says",
         "background_color": "#ece2cc"
       }
+    },
+    "e05477c0-720e-42cd-a28a-0181c3fa5488": {
+      "type": "image_with_text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Look1.png",
+        "background_color": "",
+        "image_alignment": "row",
+        "caption_text": "LOOK1",
+        "heading_text": "STATEMENT SEAMS AND CLEAN LINES",
+        "paragraph_text": "",
+        "button__text": "SHOP THE LOOK",
+        "button__link": "shopify:\/\/products\/noelle-dress",
+        "text_alignment": "text-center"
+      }
     }
   },
   "order": [
@@ -253,6 +267,7 @@
     "0b17c2bf-46ba-4d50-8b94-5fa58d66b36f",
     "38717e48-a87d-415b-ab02-c5295a8901d3",
     "2a2942de-3da0-42f2-8552-7265d17ce581",
-    "662b57ed-0892-4464-a961-d4e5e3326e39"
+    "662b57ed-0892-4464-a961-d4e5e3326e39",
+    "e05477c0-720e-42cd-a28a-0181c3fa5488"
   ]
 }
