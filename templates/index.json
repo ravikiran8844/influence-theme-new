@@ -246,7 +246,7 @@
       "type": "image_with_text",
       "settings": {
         "image": "shopify:\/\/shop_images\/Look1.png",
-        "background_color": "",
+        "background_color": "#ecf1f5",
         "image_alignment": "row",
         "caption_text": "LOOK1",
         "heading_text": "STATEMENT SEAMS AND CLEAN LINES",
