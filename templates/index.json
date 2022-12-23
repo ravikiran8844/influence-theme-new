@@ -255,6 +255,77 @@
         "button__link": "shopify:\/\/products\/noelle-dress",
         "text_alignment": "text-center"
       }
+    },
+    "52257486-3905-4e8a-a7fa-88f0e356142e": {
+      "type": "image_gallery",
+      "blocks": {
+        "538d2426-9b89-4c68-9b3f-c068d98ea902": {
+          "type": "image-section",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/HelloIMG1671331868612.png",
+            "image_mobile": "shopify:\/\/shop_images\/HelloIMG1671331868612.png",
+            "heading_text": "",
+            "heading_text_color": "",
+            "paragraph_text": "",
+            "paragraph_text_color": "",
+            "button_text": "",
+            "button_link": "",
+            "button_text_color": "",
+            "button_background_color": "",
+            "text_position": "align-start justify-start"
+          }
+        },
+        "409c5c9b-b4c2-437c-9274-52880f41be85": {
+          "type": "image-section",
+          "settings": {
+            "heading_text": "Heading Text",
+            "heading_text_color": "",
+            "paragraph_text": "<p>Image Gallery Paragraph Text.<\/p>",
+            "paragraph_text_color": "",
+            "button_text": "Button Text",
+            "button_link": "",
+            "button_text_color": "",
+            "button_background_color": "",
+            "text_position": "align-start justify-start"
+          }
+        },
+        "6c1bb881-417b-4e67-b426-35f5dd779fd3": {
+          "type": "image-section",
+          "settings": {
+            "heading_text": "Heading Text",
+            "heading_text_color": "",
+            "paragraph_text": "<p>Image Gallery Paragraph Text.<\/p>",
+            "paragraph_text_color": "",
+            "button_text": "Button Text",
+            "button_link": "",
+            "button_text_color": "",
+            "button_background_color": "",
+            "text_position": "align-start justify-start"
+          }
+        },
+        "c1fd15f4-a463-45d6-9a74-7934350a6577": {
+          "type": "image-section",
+          "settings": {
+            "heading_text": "Heading Text",
+            "heading_text_color": "",
+            "paragraph_text": "<p>Image Gallery Paragraph Text.<\/p>",
+            "paragraph_text_color": "",
+            "button_text": "Button Text",
+            "button_link": "",
+            "button_text_color": "",
+            "button_background_color": "",
+            "text_position": "align-start justify-start"
+          }
+        }
+      },
+      "block_order": [
+        "538d2426-9b89-4c68-9b3f-c068d98ea902",
+        "409c5c9b-b4c2-437c-9274-52880f41be85",
+        "6c1bb881-417b-4e67-b426-35f5dd779fd3",
+        "c1fd15f4-a463-45d6-9a74-7934350a6577"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
@@ -268,6 +339,7 @@
     "38717e48-a87d-415b-ab02-c5295a8901d3",
     "2a2942de-3da0-42f2-8552-7265d17ce581",
     "662b57ed-0892-4464-a961-d4e5e3326e39",
-    "e05477c0-720e-42cd-a28a-0181c3fa5488"
+    "e05477c0-720e-42cd-a28a-0181c3fa5488",
+    "52257486-3905-4e8a-a7fa-88f0e356142e"
   ]
 }
