@@ -332,6 +332,52 @@
       ],
       "settings": {
       }
+    },
+    "4f6644a6-f266-4ca5-b2fa-15791153ed62": {
+      "type": "logolist",
+      "blocks": {
+        "9a1ada72-9e80-45c3-be23-ba7083cb76b0": {
+          "type": "logo-list",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Icon1.png",
+            "heading": "MODERN",
+            "subheading": "<p>Modern ready-to-wear fashion brand with a focus on design, comfort and quality. Clean lines, soft shapes and subtle details.<\/p>"
+          }
+        },
+        "c84ece57-4d02-4ba4-a1bd-6d0c82489200": {
+          "type": "logo-list",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Icon2.png",
+            "heading": "MODULAR",
+            "subheading": "<p>Expect effortless everyday wear with a hint of quirk that can be easily mixed and matched with pieces from the wearer's own wardrobe.<\/p>"
+          }
+        },
+        "4686c97f-c4df-4e75-91ad-d49bd5e2d082": {
+          "type": "logo-list",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Icon3.png",
+            "heading": "UNCONVENTIONAL",
+            "subheading": "<p>Drawing inspirations from everyday life, the collections are defined by a feminine yet androEynous style.<\/p>"
+          }
+        },
+        "67bfcb95-8d49-4757-b3f3-50ada8ba1da5": {
+          "type": "logo-list",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Icon4.png",
+            "heading": "TIMELESS",
+            "subheading": "<p>Made to last beyond seasons. Every piece s thoughtfully designed for the modern-day woman who needs versatile, high-mileage pieces.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "9a1ada72-9e80-45c3-be23-ba7083cb76b0",
+        "c84ece57-4d02-4ba4-a1bd-6d0c82489200",
+        "4686c97f-c4df-4e75-91ad-d49bd5e2d082",
+        "67bfcb95-8d49-4757-b3f3-50ada8ba1da5"
+      ],
+      "settings": {
+        "background_color": "#ece2cc"
+      }
     }
   },
   "order": [
@@ -346,6 +392,7 @@
     "2a2942de-3da0-42f2-8552-7265d17ce581",
     "e05477c0-720e-42cd-a28a-0181c3fa5488",
     "662b57ed-0892-4464-a961-d4e5e3326e39",
-    "52257486-3905-4e8a-a7fa-88f0e356142e"
+    "52257486-3905-4e8a-a7fa-88f0e356142e",
+    "4f6644a6-f266-4ca5-b2fa-15791153ed62"
   ]
 }
