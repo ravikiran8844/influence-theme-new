@@ -32,6 +32,13 @@
       "settings": {
       }
     },
+    "d871f859-425e-47ab-852f-9a0533b30f3e": {
+      "type": "blogs",
+      "settings": {
+        "heading": "Blog Posts",
+        "blog": "fashion"
+      }
+    },
     "cf086678-e5e3-4dd7-b59a-0707df3e16d9": {
       "type": "newsletter",
       "settings": {
@@ -43,11 +50,24 @@
         "heading": "Get the newsletter",
         "text_alignment": "center"
       }
+    },
+    "6e2d7f39-2fe0-4859-a63f-0f15112e2201": {
+      "type": "richtext",
+      "settings": {
+        "section-background": "#ffffff",
+        "heading_text": "SPRING\/SUMMER.",
+        "paragraph_text": "<p>SHOP THE NEW SEASON NOW.<\/p>",
+        "button__text": "",
+        "button__link": "",
+        "text_alignment": "text-center"
+      }
     }
   },
   "order": [
     "main",
     "1a4d0005-aaf2-41ca-a442-cd8bd706641e",
-    "cf086678-e5e3-4dd7-b59a-0707df3e16d9"
+    "d871f859-425e-47ab-852f-9a0533b30f3e",
+    "cf086678-e5e3-4dd7-b59a-0707df3e16d9",
+    "6e2d7f39-2fe0-4859-a63f-0f15112e2201"
   ]
 }
