@@ -1,9 +1,13 @@
 {
   "sections": {
-    "main": {
-      "type": "main-skeleton",
-      "disabled": true,
+    "668f7846-50cb-47b8-92b1-3d2076ff9ef2": {
+      "type": "header",
       "settings": {
+        "image": "shopify:\/\/shop_images\/HelloIMG1671331583170.png",
+        "logo_position": "justify-start align-start",
+        "text_color": "#121212",
+        "background_color": "#ffffff",
+        "main_menu": "main-menu"
       }
     },
     "69cb824d-c165-4c33-8858-b278f2c31b2f": {
@@ -447,10 +451,16 @@
         "heading": "Get the newsletter",
         "text_alignment": "center"
       }
+    },
+    "main": {
+      "type": "main-skeleton",
+      "disabled": true,
+      "settings": {
+      }
     }
   },
   "order": [
-    "main",
+    "668f7846-50cb-47b8-92b1-3d2076ff9ef2",
     "69cb824d-c165-4c33-8858-b278f2c31b2f",
     "6e2d7f39-2fe0-4859-a63f-0f15112e2201",
     "b3e02cd7-67e9-410e-859f-41d0c859496e",
@@ -463,6 +473,7 @@
     "52257486-3905-4e8a-a7fa-88f0e356142e",
     "4f6644a6-f266-4ca5-b2fa-15791153ed62",
     "d871f859-425e-47ab-852f-9a0533b30f3e",
-    "cf086678-e5e3-4dd7-b59a-0707df3e16d9"
+    "cf086678-e5e3-4dd7-b59a-0707df3e16d9",
+    "main"
   ]
 }
