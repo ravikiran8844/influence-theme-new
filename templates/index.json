@@ -204,25 +204,25 @@
         "ef7d2e80-c2f1-43f9-b050-0c53b14f88c7": {
           "type": "testimonial_item",
           "settings": {
-            "rating": "1",
-            "text": "",
-            "author_name": ""
+            "rating": "5",
+            "text": "<p>Some of the best slow fashion pieces on the market! I can't wait to further build up my collection of their timeless classics.<\/p>",
+            "author_name": "ELENA CLARKE"
           }
         },
         "803c292f-460a-41d4-acd2-28925967b531": {
           "type": "testimonial_item",
           "settings": {
-            "rating": "1",
-            "text": "",
-            "author_name": ""
+            "rating": "5",
+            "text": "<p>This is slowly becoming my new favourite brand. Everything about Influence is incredible - from their statement pieces, to their stance on sustainability; I can't show my support here enough!<\/p>",
+            "author_name": "MARIA SMITH"
           }
         },
         "a953834d-294e-4957-a62f-730580d38eff": {
           "type": "testimonial_item",
           "settings": {
-            "rating": "1",
-            "text": "",
-            "author_name": ""
+            "rating": "5",
+            "text": "<p>In love with this brand - I would give them 6 stars if I could!<\/p>",
+            "author_name": "EVA ROBIN"
           }
         }
       },
