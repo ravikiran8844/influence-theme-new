@@ -249,6 +249,63 @@
         "background_color": "#ece2cc"
       }
     },
+    "aba12ec2-2349-4c50-9bbe-93a8d3788504": {
+      "type": "Image_with_text_slider",
+      "blocks": {
+        "9566c651-29b0-4f30-b0ce-144edc0591d6": {
+          "type": "image-text-slider",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Look1.png",
+            "image_mobile": "shopify:\/\/shop_images\/Look1.png",
+            "background_color": "#ecf1f5",
+            "image_alignment": "row",
+            "caption_text": "LOOK1",
+            "heading_text": "",
+            "paragraph_text": "<p>STATEMENT SEAMS<\/p><p>AND CLEAN LINES<\/p>",
+            "button__text": "SHOP THE LOOK",
+            "button__link": "shopify:\/\/products\/annie-dress",
+            "text_alignment": "text-center"
+          }
+        },
+        "44c80e38-4476-4bc0-8120-0da91ab3667c": {
+          "type": "image-text-slider",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/HelloIMG1671331852977.png",
+            "image_mobile": "shopify:\/\/shop_images\/HelloIMG1671331852977.png",
+            "background_color": "",
+            "image_alignment": "row",
+            "caption_text": "LOOK2",
+            "heading_text": "",
+            "paragraph_text": "<p>SCULPTURED VOLUME <\/p><p>AND TEXTURED FABRIC<\/p><p><\/p>",
+            "button__text": "SHOP THE LOOK",
+            "button__link": "shopify:\/\/collections\/bottoms",
+            "text_alignment": "text-center"
+          }
+        },
+        "900fe54d-ca2e-4a9b-9f70-b3a1d43f6e3c": {
+          "type": "image-text-slider",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/HelloIMG1671331561824.png",
+            "image_mobile": "shopify:\/\/shop_images\/HelloIMG1671331561824.png",
+            "background_color": "#ecf1f5",
+            "image_alignment": "row",
+            "caption_text": "LOOK3",
+            "heading_text": "",
+            "paragraph_text": "<p>COORDINATED PRINTS<\/p>",
+            "button__text": "SHOP THE LOOK",
+            "button__link": "shopify:\/\/collections",
+            "text_alignment": "text-center"
+          }
+        }
+      },
+      "block_order": [
+        "9566c651-29b0-4f30-b0ce-144edc0591d6",
+        "44c80e38-4476-4bc0-8120-0da91ab3667c",
+        "900fe54d-ca2e-4a9b-9f70-b3a1d43f6e3c"
+      ],
+      "settings": {
+      }
+    },
     "52257486-3905-4e8a-a7fa-88f0e356142e": {
       "type": "image_gallery",
       "blocks": {
@@ -390,63 +447,6 @@
         "heading": "Get the newsletter",
         "text_alignment": "center"
       }
-    },
-    "aba12ec2-2349-4c50-9bbe-93a8d3788504": {
-      "type": "Image_with_text_slider",
-      "blocks": {
-        "9566c651-29b0-4f30-b0ce-144edc0591d6": {
-          "type": "image-text-slider",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Look1.png",
-            "image_mobile": "shopify:\/\/shop_images\/Look1.png",
-            "background_color": "#ecf1f5",
-            "image_alignment": "row",
-            "caption_text": "LOOK1",
-            "heading_text": "",
-            "paragraph_text": "<p>STATEMENT SEAMS<\/p><p>AND CLEAN LINES<\/p>",
-            "button__text": "SHOP THE LOOK",
-            "button__link": "shopify:\/\/products\/annie-dress",
-            "text_alignment": "text-center"
-          }
-        },
-        "44c80e38-4476-4bc0-8120-0da91ab3667c": {
-          "type": "image-text-slider",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/HelloIMG1671331852977.png",
-            "image_mobile": "shopify:\/\/shop_images\/HelloIMG1671331852977.png",
-            "background_color": "",
-            "image_alignment": "row",
-            "caption_text": "LOOK2",
-            "heading_text": "",
-            "paragraph_text": "<p>SCULPTURED VOLUME <\/p><p>AND TEXTURED FABRIC<\/p><p><\/p>",
-            "button__text": "SHOP THE LOOK",
-            "button__link": "shopify:\/\/collections\/bottoms",
-            "text_alignment": "text-center"
-          }
-        },
-        "900fe54d-ca2e-4a9b-9f70-b3a1d43f6e3c": {
-          "type": "image-text-slider",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/HelloIMG1671331561824.png",
-            "image_mobile": "shopify:\/\/shop_images\/HelloIMG1671331561824.png",
-            "background_color": "#ecf1f5",
-            "image_alignment": "row",
-            "caption_text": "LOOK3",
-            "heading_text": "",
-            "paragraph_text": "<p>COORDINATED PRINTS<\/p>",
-            "button__text": "SHOP THE LOOK",
-            "button__link": "shopify:\/\/collections",
-            "text_alignment": "text-center"
-          }
-        }
-      },
-      "block_order": [
-        "9566c651-29b0-4f30-b0ce-144edc0591d6",
-        "44c80e38-4476-4bc0-8120-0da91ab3667c",
-        "900fe54d-ca2e-4a9b-9f70-b3a1d43f6e3c"
-      ],
-      "settings": {
-      }
     }
   },
   "order": [
@@ -459,10 +459,10 @@
     "2a2942de-3da0-42f2-8552-7265d17ce581",
     "ec71c9d4-105e-4ee2-9645-91b57c12def0",
     "662b57ed-0892-4464-a961-d4e5e3326e39",
+    "aba12ec2-2349-4c50-9bbe-93a8d3788504",
     "52257486-3905-4e8a-a7fa-88f0e356142e",
     "4f6644a6-f266-4ca5-b2fa-15791153ed62",
     "d871f859-425e-47ab-852f-9a0533b30f3e",
-    "cf086678-e5e3-4dd7-b59a-0707df3e16d9",
-    "aba12ec2-2349-4c50-9bbe-93a8d3788504"
+    "cf086678-e5e3-4dd7-b59a-0707df3e16d9"
   ]
 }
