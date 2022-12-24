@@ -390,6 +390,29 @@
         "heading": "Get the newsletter",
         "text_alignment": "center"
       }
+    },
+    "aba12ec2-2349-4c50-9bbe-93a8d3788504": {
+      "type": "Image_with_text_slider",
+      "blocks": {
+        "9566c651-29b0-4f30-b0ce-144edc0591d6": {
+          "type": "image-text-slider",
+          "settings": {
+            "background_color": "",
+            "image_alignment": "row",
+            "caption_text": "LOOK1",
+            "heading_text": "",
+            "paragraph_text": "<p>STATEMENT SEAMS<\/p><p>AND CLEAN LINES<\/p>",
+            "button__text": "SHOP THE LOOK",
+            "button__link": "shopify:\/\/products\/annie-dress",
+            "text_alignment": "text-center"
+          }
+        }
+      },
+      "block_order": [
+        "9566c651-29b0-4f30-b0ce-144edc0591d6"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
@@ -405,6 +428,7 @@
     "52257486-3905-4e8a-a7fa-88f0e356142e",
     "4f6644a6-f266-4ca5-b2fa-15791153ed62",
     "d871f859-425e-47ab-852f-9a0533b30f3e",
-    "cf086678-e5e3-4dd7-b59a-0707df3e16d9"
+    "cf086678-e5e3-4dd7-b59a-0707df3e16d9",
+    "aba12ec2-2349-4c50-9bbe-93a8d3788504"
   ]
 }
