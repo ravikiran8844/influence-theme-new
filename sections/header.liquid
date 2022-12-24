@@ -28,7 +28,7 @@
     padding: 20px;
   }
   .flex-items__logo {
-    max-width: 200px;
+    max-width: 180px;
     max-height: 50px;
     margin: 10px 30px;
   }
@@ -42,6 +42,22 @@
   }
   .header-container_{{ section.id}}{
     background-color: {{ section.settings.background_color}}
+  }
+  @media screen and (max-width:990px) {
+    .links_{{ section.id}}{
+      list-style: none;
+      font-weight: 700;
+      margin: 0 5px;
+      font-size: 1rem;
+      color: {{ section.settings.text_color}}
+      ;
+    }
+    .flex-items__logo {
+      box-sizing: border-box;
+      max-width: 150px;
+      max-height: 50px;
+      margin: 10px 40px;
+    }
   }
 </style>
 {% schema %}

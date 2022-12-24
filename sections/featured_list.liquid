@@ -6,11 +6,14 @@
     </div>
     <div class="flex product-card-wrapper">
       {% assign product_limit = section.settings.product_limit %}
-      {% for product in section.settings.collection_id.products limit: product_limit %}
-        <div class="product-card">
-          {% render 'product-card', product: product %}
-        </div>
-      {% endfor %}
+      {% assign product_limit = section.settings.product_limit %}
+      {% paginate section.settings.collection_id.products by 20 %}
+        {% for product in section.settings.collection_id.products limit: section.settings.product_limit %}
+          <div class="product-card">
+            {% render 'product', product: product %}
+          </div>
+        {% endfor %}
+      {% endpaginate %}
     </div>
   </div>
 {% endif %}
