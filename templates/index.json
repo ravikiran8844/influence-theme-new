@@ -427,13 +427,15 @@
         "900fe54d-ca2e-4a9b-9f70-b3a1d43f6e3c": {
           "type": "image-text-slider",
           "settings": {
-            "background_color": "",
+            "image": "shopify:\/\/shop_images\/HelloIMG1671331561824.png",
+            "image_mobile": "shopify:\/\/shop_images\/HelloIMG1671331561824.png",
+            "background_color": "#ecf1f5",
             "image_alignment": "row",
-            "caption_text": "Caption Text",
-            "heading_text": "About Company",
-            "paragraph_text": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem lpsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem lpsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.<\/p>",
-            "button__text": "Discover our Catalog",
-            "button__link": "",
+            "caption_text": "LOOK3",
+            "heading_text": "",
+            "paragraph_text": "<p>COORDINATED PRINTS<\/p>",
+            "button__text": "SHOP THE LOOK",
+            "button__link": "shopify:\/\/collections",
             "text_alignment": "text-center"
           }
         }
