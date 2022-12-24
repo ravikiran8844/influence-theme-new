@@ -397,7 +397,9 @@
         "9566c651-29b0-4f30-b0ce-144edc0591d6": {
           "type": "image-text-slider",
           "settings": {
-            "background_color": "",
+            "image": "shopify:\/\/shop_images\/Look1.png",
+            "image_mobile": "shopify:\/\/shop_images\/Look1.png",
+            "background_color": "#ecf1f5",
             "image_alignment": "row",
             "caption_text": "LOOK1",
             "heading_text": "",
