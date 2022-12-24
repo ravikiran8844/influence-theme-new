@@ -196,15 +196,15 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/HelloIMG1671331784943.png",
             "mobile_image": "shopify:\/\/shop_images\/HelloIMG1671331787117.png",
-            "heading": "Heading Text",
-            "sub_heading": "<p>Subheading<\/p>",
-            "button_text1": "Shop this",
+            "heading": "FASHION: DESIGNED FOR LIFE",
+            "sub_heading": "<p>CELEBRATE COMFORT<\/p>",
+            "button_text1": "SHOP DRESSES",
             "button_link1": "",
             "button1_color": "button--secondary",
-            "button_text2": "Best Selling",
+            "button_text2": "SHOP ONE PIECES",
             "button_link2": "",
             "button2_color": "button--secondary",
-            "text_position": "align-end justify-end"
+            "text_position": "align-end justify-start"
           }
         }
       },
