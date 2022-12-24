@@ -2,10 +2,10 @@
   <div class="container">
     <div class="richtext__wrapper {{section.settings.text_alignment}}">
       {% if section.settings.heading_text != blank %}
-        <h2 class="richtext__heading">{{ section.settings.heading_text }}</h2>
+        <h2 class="richtext__heading h2">{{ section.settings.heading_text }}</h2>
       {% endif %}
       {% if section.settings.paragraph_text != blank %}
-        <div class="richtext__paragraph">{{ section.settings.paragraph_text }}</div>
+        <div class="richtext__paragraph h3">{{ section.settings.paragraph_text }}</div>
       {% endif %}
       {% if section.settings.button__text != blank %}
         <div class="richtext__button">

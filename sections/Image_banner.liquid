@@ -1,11 +1,11 @@
-<div class="slideshow">
-  <div class="slideshow__wrapper">
+<div class="image-banner">
+  <div class="image-banner__wrapper">
     {% for block in section.blocks %}
       {% if block.settings.image != null %}
-        <div class="slideshow__image">
+        <div class="image-banner__image">
           {% render 'image', class: "" mobileSrc: block.settings.mobile_image, desktopSrc: block.settings.image %}
         {% endif %}
-        <div class="slideshow__content flex {{block.settings.text_position}}">
+        <div class="image-banner__content flex {{block.settings.text_position}}">
           <div>
             <h2 class="h2 text-light">{{ block.settings.heading }}</h2>
             <div class="h3 text-light">{{ block.settings.sub_heading }}</div>
@@ -30,12 +30,12 @@
     color: #ffffff;
     font-weight: 700;
   }
-  .slideshow__image {
+  .image-banner__image {
     position: relative;
     height: 100%;
     width: 100%;
   }
-  .slideshow__content {
+  .image-banner__content {
     text-align: center;
     position: absolute;
     top: 0;
@@ -45,12 +45,12 @@
     padding: 4rem;
   }
   @media screen and (max-width:750px) {
-    .slideshow__image {
+    .image-banner__image {
       height: 100%;
       height: 100%;
       width: 100%;
     }
-    .slideshow__content {
+    .image-banner__content {
       text-align: center;
       position: absolute;
       top: 0;
@@ -61,7 +61,7 @@
     </style>
     {% schema %}
       {
-        "name": "Slideshow", "class": "Slideshow", "tag": "section", "blocks": [
+        "name": "Image Banner", "class": "image-banner", "tag": "section", "blocks": [
           {
             "name": "Slide", "type": "slide", "limit": 6, "settings": [
               {
@@ -99,7 +99,7 @@
           }
         ], "presets": [
           {
-            "name": "Slideshow"}
+            "name": "Image Banner"}
         ]
       }
     {% endschema %}
