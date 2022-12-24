@@ -1,0 +1,97 @@
+<div class="header-container_{{section.id}}">
+  <div class="flex-container">
+    <div class="flex-items flex {{section.settings.logo_position}}">
+      {% if section.settings.image != blank %}
+        <div class="flex-items__logo">
+          <div class="justify-center align-center">
+            {% render 'image', class: 'logo', mobileSrc: , desktopSrc: section.settings.image %}
+          </div>
+        </div>
+      {% endif %}
+      <div class="flex-item__links">
+        <ul class="flex">
+          {% for link in section.settings.main_menu.links -%}
+            <a class="text-decoration-none" href="{{link.url}}">
+              <li class="links_{{section.id}}">+ {{ link.title }}</li>
+            </a>
+          {%- endfor %}
+        </ul>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  .header-container {
+    padding: 20px;
+  }
+  .flex-items__logo {
+    max-width: 200px;
+    max-height: 50px;
+    margin: 10px 30px;
+  }
+  .links_{{ section.id}}{
+    list-style: none;
+    font-weight: 700;
+    margin-left: 20px;
+    font-size: 2rem;
+    color: {{ section.settings.text_color}}
+    ;
+  }
+  .header-container_{{ section.id}}{
+    background-color: {{ section.settings.background_color}}
+  }
+</style>
+{% schema %}
+  {
+    "name": "Header",
+    "class": "section",
+    "tag": "section",
+    "settings": [
+      {
+        "type": "header",
+        "content": "LOGO"
+      },
+      {
+        "type": "image_picker",
+        "label": "Logo image",
+        "id": "image"
+      },
+      {
+        "type": "radio",
+        "id": "logo_position",
+        "label": "Logo Position",
+        "options": [
+          {
+            "label": "Left",
+            "value": "justify-start align-start"
+          }, {
+            "label": "Center",
+            "value": "justify-center align-center"
+          }
+        ],
+        "default": "justify-start align-start"
+      },
+      {
+        "type": "color",
+        "id": "text_color",
+        "label": "Text Color"
+      }, {
+        "type": "color",
+        "id": "background_color",
+        "label": "Background Color"
+      }, {
+        "type": "link_list",
+        "id": "main_menu",
+        "label": "Menu"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Header"
+      }
+    ]
+  }
+{% endschema %}
