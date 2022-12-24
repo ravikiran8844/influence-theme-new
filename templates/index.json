@@ -6,32 +6,6 @@
       "settings": {
       }
     },
-    "1a4d0005-aaf2-41ca-a442-cd8bd706641e": {
-      "type": "slideshow",
-      "blocks": {
-        "cb0ac92c-b60d-48ab-b7ae-3df1517ef3be": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/hher-23-3_1.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/hher-23-5_1.jpg",
-            "heading": "NEW BASICS",
-            "sub_heading": "<p>THE ART OF STYLE<\/p>",
-            "button_text1": "SHOP NEW IN",
-            "button_link1": "",
-            "button1_color": "button--secondary",
-            "button_text2": "SHOP ALL",
-            "button_link2": "",
-            "button2_color": "button--secondary",
-            "text_position": "align-end justify-end"
-          }
-        }
-      },
-      "block_order": [
-        "cb0ac92c-b60d-48ab-b7ae-3df1517ef3be"
-      ],
-      "settings": {
-      }
-    },
     "6e2d7f39-2fe0-4859-a63f-0f15112e2201": {
       "type": "richtext",
       "settings": {
@@ -364,11 +338,36 @@
         "heading": "Get the newsletter",
         "text_alignment": "center"
       }
+    },
+    "69cb824d-c165-4c33-8858-b278f2c31b2f": {
+      "type": "Image_banner",
+      "blocks": {
+        "e6657bfa-1279-4102-9b6f-c4d4adf40305": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hher-23-3_1.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/hher-23-5_1.jpg",
+            "heading": "Heading Text",
+            "sub_heading": "<p>Subheading<\/p>",
+            "button_text1": "Shop this",
+            "button_link1": "",
+            "button1_color": "button--secondary",
+            "button_text2": "Best Selling",
+            "button_link2": "",
+            "button2_color": "button--secondary",
+            "text_position": "align-end justify-end"
+          }
+        }
+      },
+      "block_order": [
+        "e6657bfa-1279-4102-9b6f-c4d4adf40305"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
     "main",
-    "1a4d0005-aaf2-41ca-a442-cd8bd706641e",
     "6e2d7f39-2fe0-4859-a63f-0f15112e2201",
     "b3e02cd7-67e9-410e-859f-41d0c859496e",
     "0b17c2bf-46ba-4d50-8b94-5fa58d66b36f",
@@ -378,6 +377,7 @@
     "52257486-3905-4e8a-a7fa-88f0e356142e",
     "4f6644a6-f266-4ca5-b2fa-15791153ed62",
     "d871f859-425e-47ab-852f-9a0533b30f3e",
-    "cf086678-e5e3-4dd7-b59a-0707df3e16d9"
+    "cf086678-e5e3-4dd7-b59a-0707df3e16d9",
+    "69cb824d-c165-4c33-8858-b278f2c31b2f"
   ]
 }
