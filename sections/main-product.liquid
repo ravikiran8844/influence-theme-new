@@ -1,12 +1,8 @@
-<div
-  class="page-width grid mb-20">
-  <div
-    class="product_image grid--2-col-desktop grid__item">
-    <img
-      src="{{product.featured_image|img_url: 'large'}}">
+<div class="page-width grid mb-20">
+  <div class="product_image grid--2-col-desktop grid__item">
+    <div><img src="{{product.featured_image|img_url: 'large'}}"></div>
   </div>
-  <div
-    class="product_text grid--2-col-desktop grid__item">
+  <div class="product_text grid--2-col-desktop grid__item">
     <h2>{{ product.title }}</h2>
     {% if product.available %}
       <p>In Stock: Ready to Ship</p>
@@ -24,6 +20,9 @@
   }
   .product_image {
     padding: 10px;
+  }
+  .product_images {
+    width: 25%;
   }
 </style>
 
