@@ -1,1 +1,55 @@
-{"current":{"type_header_font":"din_next_n5","heading_scale":100,"type_body_font":"open_sans_n4","body_scale":100,"page_width":1440,"spacing_grid_horizontal":15,"spacing_grid_vertical":15,"social_twitter_link":"","social_facebook_link":"","social_pinterest_link":"","social_instagram_link":"","social_tiktok_link":"","social_tumblr_link":"","social_snapchat_link":"","social_youtube_link":"","social_vimeo_link":"","content_for_index":[]},"presets":{"Default":{"type_header_font":"din_next_n5","heading_scale":100,"type_body_font":"open_sans_n4","body_scale":100,"page_width":1440,"spacing_grid_horizontal":15,"spacing_grid_vertical":15,"social_twitter_link":"","social_facebook_link":"","social_pinterest_link":"","social_instagram_link":"","social_tiktok_link":"","social_tumblr_link":"","social_snapchat_link":"","social_youtube_link":"","social_vimeo_link":""}}}
+{
+  "current": {
+    "type_header_font": "din_next_n5",
+    "heading_scale": 100,
+    "type_body_font": "open_sans_n4",
+    "body_scale": 100,
+    "page_width": 1440,
+    "spacing_grid_horizontal": 15,
+    "spacing_grid_vertical": 15,
+    "social_twitter_link": "",
+    "social_facebook_link": "",
+    "social_pinterest_link": "",
+    "social_instagram_link": "",
+    "social_tiktok_link": "",
+    "social_tumblr_link": "",
+    "social_snapchat_link": "",
+    "social_youtube_link": "",
+    "social_vimeo_link": "",
+    "sections": {
+      "header": {
+        "type": "header",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/HelloIMG1671331583170.png",
+          "logo_position": "justify-start align-start",
+          "text_color": "#121212",
+          "background_color": "",
+          "main_menu": "main-menu"
+        }
+      }
+    },
+    "content_for_index": [
+
+    ]
+  },
+  "presets": {
+    "Default": {
+      "type_header_font": "din_next_n5",
+      "heading_scale": 100,
+      "type_body_font": "open_sans_n4",
+      "body_scale": 100,
+      "page_width": 1440,
+      "spacing_grid_horizontal": 15,
+      "spacing_grid_vertical": 15,
+      "social_twitter_link": "",
+      "social_facebook_link": "",
+      "social_pinterest_link": "",
+      "social_instagram_link": "",
+      "social_tiktok_link": "",
+      "social_tumblr_link": "",
+      "social_snapchat_link": "",
+      "social_youtube_link": "",
+      "social_vimeo_link": ""
+    }
+  }
+}
