@@ -1,5 +1,15 @@
 {
   "sections": {
+    "9ec670bd-49c0-4c31-b4bd-42da1b0dbb33": {
+      "type": "header",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/HelloIMG1671331583170.png",
+        "logo_position": "justify-start align-start",
+        "text_color": "#121212",
+        "background_color": "",
+        "main_menu": "main-menu"
+      }
+    },
     "main": {
       "type": "article",
       "settings": {
@@ -7,6 +17,7 @@
     }
   },
   "order": [
+    "9ec670bd-49c0-4c31-b4bd-42da1b0dbb33",
     "main"
   ]
 }
