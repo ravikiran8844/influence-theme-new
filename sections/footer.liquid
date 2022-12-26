@@ -1,19 +1,20 @@
 {% if section.blocks.size > 0 %}
   {% for block in section.blocks %}
     <div class="footer footer_{{section.id}} page-width">
-      <div class="flexbox footer-items grid grid--1-col grid--{{section.blocks.size}}-col-desktop">
+      <div
+        class="flexbox footer-items">
         {% if block.settings.logo != blank %}
-          <div class="footer__image footer-item grid__item">
+          <div class="footer__image footer-item">
             {% render 'image', class: 'image', mobileSrc: block.settings.logo, desktopSrc: block.settings.logo %}
           </div>
         {% endif %}
         {% if block.settings.links_heading != blank %}
-          <div class="footer__links footer-item grid__item">
-            <div class="h3">{{ block.settings.links_heading }}</div>
+          <div class="footer__links footer-item">
+            <div class="h3 text-color_{{ section.id}}">{{ block.settings.links_heading }}</div>
             <ul>
               {% for link in block.settings.footer_links.links %}
-                <a href="{{link.url}}">
-                  <li>{{ link.title }}</li>
+                <a class="text-decoration-none" href="{{link.url}}">
+                  <li class="links text-color_{{ section.id}}">{{ link.title }}</li>
                 </a>
               {% endfor %}
             </ul>
@@ -21,15 +22,19 @@
         {% endif %}
 
         {% if block.settings.text_section_heading != blank and block.settings.text_section_content != blank %}
-          <div class="footer__links footer-item grid__item">
-            <div class="h3">{{ block.settings.text_section_heading }}</div>
-            <div>{{ block.settings.text_section_content }}</div>
+          <div class="footer__links footer-item">
+            <div class="text-color_{{ section.id}} h3">{{ block.settings.text_section_heading }}</div>
+            <div class="text-color_{{ section.id}}">{{ block.settings.text_section_content }}</div>
           </div>
         {% endif %}
         {% if block.settings.ns_heading != blank %}
-          <div class="footer__links footer-item grid__item">
-            <div class="h3">{{ block.settings.ns_heading }}</div>
-            <div>{{ block.settings.ns_text }}</div>
+          <div class="footer__links footer-item">
+            <div class="text-color_{{ section.id}} h3">{{ block.settings.ns_heading }}</div>
+            <div class="text-color_{{ section.id}}">{{ block.settings.ns_text }}</div>
+            <div><input
+                placeholder="Email"
+                type="email"
+                name="contact[email]" /></div>
           </div>
         {% endif %}
       </div>
@@ -38,9 +43,21 @@
 {% endif %}
 
 {% style %}
+  .footer {
+    width: 100vw;
+  }
+  .flexbox {
+    flex-direction: row;
+  }
+  .links {
+    list-style: none;
+  }
   .footer_{{ section.id}}{
     background-color: #261D09;
-    color: #fff;
+    padding: 20px;
+  }
+  .text-color_{{ section.id}}{
+    color: {{ section.settings.footer_text_color}}
   }
   .footer-item {
     max-width: 300px;
