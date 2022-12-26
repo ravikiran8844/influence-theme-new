@@ -34,7 +34,7 @@
           "logo_position": "justify-start align-start",
           "text_color": "#121212",
           "background_color": "",
-          "main_menu": "footer"
+          "main_menu": "main-menu"
         }
       }
     },
