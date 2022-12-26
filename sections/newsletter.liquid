@@ -3,12 +3,21 @@
     <div>
       <h3 class="mb-15 text-color_{{section.id}}">{{ section.settings.sub_heading }}</h3>
       <h2 class="mb-20 text-color_{{section.id}}">{{ section.settings.heading }}</h2>
-      <form>
-        <div class="flex align-center mb-20 justify-center">
-          <input type="email">
-          <button class="button button--primary btn-color_{{section.id}}" type="submit">Subscribe</button>
+      {% form 'customer' %}
+        <div class="email flex align-center mb-20 justify-center">
+          <input
+            placeholder="Enter your email"
+            type="email"
+            name="contact[email]" />
+          <div class="submit">
+            <input
+              class="button button--primary btn-color_{{section.id}}"
+              type="submit"
+              value="Sign up" />
+          </div>
         </div>
-      </form>
+
+      {% endform %}
     </div>
   </div>
 {% endif %}

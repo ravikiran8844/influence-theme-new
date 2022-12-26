@@ -1,8 +1,182 @@
+{% if section.blocks.size > 0 %}
+  {% for block in section.blocks %}
+    <div class="footer footer_{{section.id}} page-width">
+      <div class="flexbox footer-items grid grid--1-col grid--{{section.blocks.size}}-col-desktop">
+        {% if block.settings.logo != blank %}
+          <div class="footer__image footer-item grid__item">
+            {% render 'image', class: 'image', mobileSrc: block.settings.logo, desktopSrc: block.settings.logo %}
+          </div>
+        {% endif %}
+        {% if block.settings.links_heading != blank %}
+          <div class="footer__links footer-item grid__item">
+            <div class="h3">{{ block.settings.links_heading }}</div>
+            <ul>
+              {% for link in block.settings.footer_links.links %}
+                <a href="{{link.url}}">
+                  <li>{{ link.title }}</li>
+                </a>
+              {% endfor %}
+            </ul>
+          </div>
+        {% endif %}
+
+        {% if block.settings.text_section_heading != blank and block.settings.text_section_content != blank %}
+          <div class="footer__links footer-item grid__item">
+            <div class="h3">{{ block.settings.text_section_heading }}</div>
+            <div>{{ block.settings.text_section_content }}</div>
+          </div>
+        {% endif %}
+        {% if block.settings.ns_heading != blank %}
+          <div class="footer__links footer-item grid__item">
+            <div class="h3">{{ block.settings.ns_heading }}</div>
+            <div>{{ block.settings.ns_text }}</div>
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  {% endfor %}
+{% endif %}
+
+{% style %}
+  .footer_{{ section.id}}{
+    background-color: #261D09;
+    color: #fff;
+  }
+  .footer-item {
+    max-width: 300px;
+  }
+  .image {
+    width: 200px;
+  }
+  {% for block in section.blocks %}
+    .footer_image {
+      max-width: {{ block.settings.logo_size_mobile | append: 'px' }}
+      ;
+    }
+    @media screen and (min-width:990px) {
+      .footer_image {
+        max-width: {{ block.settings.logo_size_desktop | append: 'px' }}
+        ;
+      }
+    }
+  {% endfor %}
+{% endstyle %}
+
 {% schema %}
   {
     "name": "Footer",
     "class": "section",
     "tag": "section",
-    "settings": []
+    "settings": [
+      {
+        "type": "header",
+        "content": "COLOR SCHEME"
+      }, {
+        "type": "color",
+        "id": "footer_background_color",
+        "label": "Background Color"
+      }, {
+        "type": "color",
+        "id": "footer_text_color",
+        "label": "Text Color"
+      }
+    ],
+    "blocks": [
+      {
+        "name": "Logo",
+        "type": "logo",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "logo",
+            "label": "Image"
+          }, {
+            "type": "range",
+            "id": "logo_size_desktop",
+            "default": 200,
+            "min": 80,
+            "max": 270,
+            "step": 10,
+            "label": "Width (desktop)"
+          }, {
+            "type": "range",
+            "id": "logo_size_mobile",
+            "default": 140,
+            "min": 50,
+            "max": 160,
+            "step": 10,
+            "label": "Width (desktop)"
+          }
+        ]
+      },
+      {
+        "name": "Links",
+        "type": "footer-links",
+        "settings": [
+          {
+            "type": "text",
+            "id": "links_heading",
+            "label": "Heading",
+            "default": "Links"
+          }, {
+            "type": "link_list",
+            "label": "Menu",
+            "id": "footer_links"
+          }
+        ]
+      },
+      {
+        "name": "Text",
+        "type": "text-section",
+        "settings": [
+          {
+            "type": "text",
+            "id": "text_section_heading",
+            "default": "Text",
+            "label": "Heading"
+          }, {
+            "type": "richtext",
+            "id": "text_section_content",
+            "label": "Text",
+            "default": "<p>Share store details, promotions, or brand content with your customers.</p>"
+          }
+        ]
+      },
+      {
+        "name": "Image",
+        "type": "image-section",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          }, {
+            "type": "url",
+            "id": "Link",
+            "label": "Link"
+          }
+        ]
+      }, {
+        "name": "Newsletter",
+        "type": "newsletter-section",
+        "settings": [
+          {
+            "type": "text",
+            "id": "ns_heading",
+            "label": "Heading",
+            "default": "Newsletter"
+          }, {
+            "type": "richtext",
+            "id": "ns_text",
+            "label": "Body Text"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Footer"
+      }
+    ]
   }
 {% endschema %}
