@@ -16,6 +16,28 @@
     "social_snapchat_link": "",
     "social_youtube_link": "",
     "social_vimeo_link": "",
+    "sections": {
+      "announcment-bar": {
+        "type": "announcment-bar",
+        "settings": {
+          "show_announcement_bar": true,
+          "announcement_bar_text_color": "#ffffff",
+          "announcement_bar_background_color": "#000000",
+          "announcement_bar_text": "<p>PROMOTE DISCOUNT SAVINGS<\/p>",
+          "announcement_link": ""
+        }
+      },
+      "header": {
+        "type": "header",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/HelloIMG1671331583170.png",
+          "logo_position": "justify-start align-start",
+          "text_color": "#121212",
+          "background_color": "",
+          "main_menu": "footer"
+        }
+      }
+    },
     "content_for_index": [
 
     ]

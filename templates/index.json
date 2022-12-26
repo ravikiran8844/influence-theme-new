@@ -2,6 +2,7 @@
   "sections": {
     "668f7846-50cb-47b8-92b1-3d2076ff9ef2": {
       "type": "header",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/HelloIMG1671331583170.png",
         "logo_position": "justify-start align-start",
