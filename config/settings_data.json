@@ -37,50 +37,6 @@
           "main_menu": "main-menu",
           "mobile_menu": "main-menu"
         }
-      },
-      "footer": {
-        "type": "footer",
-        "blocks": {
-          "856f8fea-d6ea-4d8e-9aa6-4b6cbfa0d884": {
-            "type": "logo",
-            "settings": {
-              "logo": "shopify:\/\/shop_images\/HelloIMG1671331900146.png",
-              "logo_size_desktop": 200,
-              "logo_size_mobile": 140
-            }
-          },
-          "3680fd87-3ec6-4897-b3d4-bff7875a6a92": {
-            "type": "footer-links",
-            "settings": {
-              "links_heading": "Links",
-              "footer_links": "main-menu"
-            }
-          },
-          "86f273ed-2e2b-47fe-933a-9e845e2c5ef1": {
-            "type": "text-section",
-            "settings": {
-              "text_section_heading": "Text",
-              "text_section_content": "<p>Share store details, promotions, or brand content with your customers.<\/p>"
-            }
-          },
-          "ade548a1-e3c3-4959-9c03-06766f9f937e": {
-            "type": "newsletter-section",
-            "settings": {
-              "ns_heading": "Newsletter",
-              "ns_text": ""
-            }
-          }
-        },
-        "block_order": [
-          "856f8fea-d6ea-4d8e-9aa6-4b6cbfa0d884",
-          "3680fd87-3ec6-4897-b3d4-bff7875a6a92",
-          "86f273ed-2e2b-47fe-933a-9e845e2c5ef1",
-          "ade548a1-e3c3-4959-9c03-06766f9f937e"
-        ],
-        "settings": {
-          "footer_background_color": "#261d09",
-          "footer_text_color": "#ffffff"
-        }
       }
     },
     "content_for_index": [

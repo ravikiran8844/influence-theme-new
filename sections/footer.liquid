@@ -2,7 +2,7 @@
   {% for block in section.blocks %}
     <div class="footer footer_{{section.id}} page-width">
       <div
-        class="flexbox footer-items">
+        class="flex footer-items">
         {% if block.settings.logo != blank %}
           <div class="footer__image footer-item">
             {% render 'image', class: 'image', mobileSrc: block.settings.logo, desktopSrc: block.settings.logo %}
@@ -59,21 +59,21 @@
   .text-color_{{ section.id}}{
     color: {{ section.settings.footer_text_color}}
   }
-  .footer-item {
-    max-width: 300px;
-  }
   .image {
     width: 200px;
   }
   {% for block in section.blocks %}
     .footer_image {
-      max-width: {{ block.settings.logo_size_mobile | append: 'px' }}
+      max-width: {{ block.settings.logo_size_desktop | append: 'px' }}
       ;
     }
-    @media screen and (min-width:990px) {
+    @media screen and (max-width:990px) {
       .footer_image {
-        max-width: {{ block.settings.logo_size_desktop | append: 'px' }}
+        max-width: {{ block.settings.logo_size_mobile | append: 'px' }}
         ;
+      }
+      .image {
+        width: 200px;
       }
     }
   {% endfor %}
