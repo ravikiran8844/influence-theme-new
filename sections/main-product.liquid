@@ -9,11 +9,32 @@
     {% endif %}
     <h4>{{ product.price | money_with_currency }}</h4>
     <p>⭐⭐⭐⭐⭐</p>
+    {% unless product.has_only_default_variant %}
+      {% for option in product.options_with_values %}
+        <div class="flex flex-wrap align-center">
+          <label class="h5" for="{{option.name}}">{{ option.name }}</label>
+          {% for value in option.values %}
+            <div class="flex flex-wrap align-center">
+              <input type="radio" name="{{option.name}}">
+              <option>{{ value }}</option>
+            </div>
+          {% endfor %}
+        </div>
+      {% endfor %}
+    {% endunless %}
+    {% form 'product', product %}
+      <div>
+        <button type="submit" class="button button--primary">Add to Cart</button>
+      </div>
+    {% endform %}
     <h4>Product Description</h4>
     <p>{{ product.content }}</p>
   </div>
 </div>
 <style>
+  .button {
+    margin: 10px 0;
+  }
   .product_text {
     width: 60vw;
     padding: 20px;
