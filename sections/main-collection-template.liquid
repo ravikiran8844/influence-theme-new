@@ -1,6 +1,5 @@
 <link rel="stylesheet" href="{{ 'collection.css' | asset_url }}">
 <script src="{{ 'collection.js' | asset_url }}" defer="defer"></script>
-
 {% assign product_limit = section.settings.product_per_page %}
 {% paginate collection.products by product_limit %}
   <div class="page-width main-collection">

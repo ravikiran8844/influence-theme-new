@@ -4,9 +4,15 @@
       "type": "main-collection-template",
       "settings": {
       }
+    },
+    "banner": {
+      "type": "collection-banner",
+      "settings": {
+      }
     }
   },
   "order": [
+    "banner",
     "main"
   ]
 }

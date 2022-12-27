@@ -30,10 +30,16 @@
           <div class="footer__links footer-item">
             <div class="text-color_{{ section.id}} h3">{{ block.settings.ns_heading }}</div>
             <div class="text-color_{{ section.id}}">{{ block.settings.ns_text }}</div>
-            <div><input
-                placeholder="Email"
-                type="email"
-                name="contact[email]" /></div>
+            {% form 'customer' %}
+              <div><input
+                  placeholder="Email"
+                  type="email"
+                  name="contact[email]" />
+                <input
+                  class="button button--primary"
+                  type="submit"
+                  value="Sign up" /></div>
+            {% endform %}
           </div>
         {% endif %}
       {% endfor %}
