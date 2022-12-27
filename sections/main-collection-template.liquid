@@ -31,7 +31,7 @@
             class="grid product-grid grid--1-col-tablet-down grid--3-col-desktop">
             {%- for product in collection.products -%}
               <li class="grid__item">
-                {{ forloop.index }}. {{ product.title }}
+                <div class="h3">{{ forloop.index }}. {{ product.title }}</div>
                 <div>
                   <a href="{{product.url}}"><img src="{{product.featured_image|img_url: 'large'}}"></a>
                 </div>
