@@ -1,8 +1,7 @@
 {% if section.blocks.size > 0 %}
-  {% for block in section.blocks %}
-    <div class="footer footer_{{section.id}} page-width">
-      <div
-        class="flex footer-items">
+  <div class="footer footer_{{section.id}} page-width">
+    <div class="footer-flex footer-items">
+      {% for block in section.blocks %}
         {% if block.settings.logo != blank %}
           <div class="footer__image footer-item">
             {% render 'image', class: 'image', mobileSrc: block.settings.logo, desktopSrc: block.settings.logo %}
@@ -37,17 +36,26 @@
                 name="contact[email]" /></div>
           </div>
         {% endif %}
-      </div>
+      {% endfor %}
     </div>
-  {% endfor %}
+    <div>
+      <p class="h5 footer_text center text-color_{{ section.id}}">© 2022, Influence Clone By Ravi Kiran</p>
+    </div>
+  </div>
 {% endif %}
 
 {% style %}
   .footer {
     width: 100vw;
   }
-  .flexbox {
+  .footer-item {
+    width: 25%;
+    padding: 20px;
+  }
+  .footer-flex {
+    display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
   }
   .links {
     list-style: none;
@@ -74,6 +82,16 @@
       }
       .image {
         width: 200px;
+      }
+      .footer-flex {
+        flex-direction: column;
+      }
+      .footer-item {
+        width: 100%;
+      }
+      .footer_text {
+        font-size: 12px;
+        margin-top: 10px;
       }
     }
   {% endfor %}
