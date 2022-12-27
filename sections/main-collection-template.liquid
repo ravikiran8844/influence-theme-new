@@ -35,7 +35,9 @@
                 <div>
                   <a href="{{product.url}}"><img src="{{product.featured_image|img_url: 'large'}}"></a>
                 </div>
-                <div class="h6">{{ product.price | money_with_currency }}</div>
+                <div class="h6">{{ product.price | money_with_currency }}
+                  <span class="compared-price">{{ product.compare_at_price_max | money_with_currency }}</span>
+                </div>
               </li>
             {%- endfor -%}
           </ul>
@@ -53,7 +55,13 @@
   </div>
 {% endpaginate %}
 
-
+<style>
+  .compared-price {
+    text-decoration: line-through;
+    color: red;
+    margin-left: 10px;
+  }
+</style>
 {% schema %}
   {
     "name": "Collection products",
