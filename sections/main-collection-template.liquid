@@ -35,7 +35,7 @@
                 <div>
                   <a href="{{product.url}}"><img src="{{product.featured_image|img_url: 'large'}}"></a>
                 </div>
-
+                <div class="h6">{{ product.price | money_with_currency }}</div>
               </li>
             {%- endfor -%}
           </ul>
