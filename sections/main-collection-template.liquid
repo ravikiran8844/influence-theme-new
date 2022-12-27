@@ -32,6 +32,10 @@
             {%- for product in collection.products -%}
               <li class="grid__item">
                 {{ forloop.index }}. {{ product.title }}
+                <div>
+                  <a href="{{product.url}}"><img src="{{product.featured_image|img_url: 'large'}}"></a>
+                </div>
+
               </li>
             {%- endfor -%}
           </ul>
