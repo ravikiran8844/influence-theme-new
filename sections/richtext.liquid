@@ -1,6 +1,7 @@
-<div class="richtext richtext-{{section.id}} mb-15">
+<div class="richtext richtext-{{section.id}}">
   <div class="container">
-    <div class="richtext__wrapper {{section.settings.text_alignment}}">
+    <div
+      class="richtext__wrapper {{section.settings.text_alignment}}">
       {% if section.settings.heading_text != blank %}
         <h2 class="richtext__heading h2">{{ section.settings.heading_text }}</h2>
       {% endif %}
