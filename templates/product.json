@@ -2,6 +2,69 @@
   "sections": {
     "main": {
       "type": "marmeto-product-template",
+      "blocks": {
+        "9ddd9e02-047a-40c0-b257-861a4c1556f6": {
+          "type": "badge",
+          "settings": {
+          }
+        },
+        "55dfc88f-a650-4938-9ab2-a4555a2bbd39": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "be601044-38cd-4585-9897-d3f91bee6b66": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "dd1134c1-7792-437f-8244-7bc9102afc43": {
+          "type": "variant_picker",
+          "settings": {
+          }
+        },
+        "47197933-10ed-4897-b5b3-ea86c8dbc316": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "f7d2b054-c286-4af8-a2f3-fe81caf51439": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "db43d764-3d5f-44ed-9dde-5a85aa996b98": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "c07829f2-8c50-4a37-9931-ed0bf5ee1178": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Collapsible tab",
+            "content": "",
+            "page": ""
+          }
+        },
+        "3d3b970e-0039-45ad-a675-2fdedb66845f": {
+          "type": "text",
+          "settings": {
+            "text": "Text block"
+          }
+        }
+      },
+      "block_order": [
+        "9ddd9e02-047a-40c0-b257-861a4c1556f6",
+        "55dfc88f-a650-4938-9ab2-a4555a2bbd39",
+        "be601044-38cd-4585-9897-d3f91bee6b66",
+        "dd1134c1-7792-437f-8244-7bc9102afc43",
+        "47197933-10ed-4897-b5b3-ea86c8dbc316",
+        "f7d2b054-c286-4af8-a2f3-fe81caf51439",
+        "db43d764-3d5f-44ed-9dde-5a85aa996b98",
+        "c07829f2-8c50-4a37-9931-ed0bf5ee1178",
+        "3d3b970e-0039-45ad-a675-2fdedb66845f"
+      ],
       "settings": {
       }
     }
