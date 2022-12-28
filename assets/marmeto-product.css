@@ -247,3 +247,127 @@
   .product__badge:nth-child(even) {
     background: #4ca54c;
   }
+
+
+  /*------------------------------------------  
+ * PRODUCT CARDS
+ -----------------------------------------*/
+.mm-product-card {
+  width: 25%;
+  flex: 0 0 25%;
+  padding: 0 5px;
+  margin-bottom: 20px;
+}
+.mm-product-card__wrap,
+.mm-product-card__link {
+  position: relative;
+  display: block;
+}
+.mm-product-card__image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.mm-product-card__badges {
+  position: absolute;
+  top: 0.8rem;
+}
+.mm-product-card__badge {
+  font-size: 10px;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  margin-right: 5px;
+  font-weight: 600;
+  color: #fff;
+}
+.mm-product-card__badge.on-sale {
+  background: #ff5b5b; 
+}
+.mm-product-card__badge.sold-out {
+  background: #303030;
+}
+.mm-product-card__info {
+  padding-top: 15px;
+}
+.mm-product-card__prices {
+  margin-bottom: 10px;
+}
+.mm-product-card__price.on-sale {
+  color: #dc0000; 
+}
+.mm-product-card__compareprice {
+  color: #8b8b8b;
+  margin-left: 10px;
+  font-size: 0.9rem;
+  text-decoration: line-through;  
+}
+
+@media only screen and (max-width: 767px) {
+  .mm-product-card {
+    width: 50%;
+    flex: 0 0 50%;
+  }
+}
+
+/*------------------------------------------ 
+ * PRODUCT RECOMMENDATIONS 
+ -----------------------------------------*/
+ .mm-recommendations {
+  margin: 50px auto;
+  padding: 0 20px;
+  max-width: 1300px;
+}
+.mm-recommendations__title {
+  font-size: 1.2rem;
+  letter-spacing: .1em;
+  margin-bottom: 15px;
+  text-transform: uppercase; 
+}
+.mm-recommendations__products {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -5px;
+}
+
+/*------------------------------------------  
+ * UPSELL PRODUCTS
+ -----------------------------------------*/
+.mm-upsell {
+  margin: 50px auto;
+  padding: 0 20px;
+  max-width: 1300px;
+}
+.mm-upsell__title {
+  font-size: 1.2rem;
+  letter-spacing: .1em;
+  margin-bottom: 15px;
+  text-transform: uppercase; 
+}
+.mm-upsell__products {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -5px;
+}
+
+/*------------------------------------------  
+ * RECENTLY VIEWED PRODUCTS
+ -----------------------------------------*/
+ .mm-recentlyviewed {
+  margin: 50px auto;
+  padding: 0 20px;
+  max-width: 1300px;
+}
+.mm-recentlyviewed__title {
+  font-size: 1.2rem;
+  letter-spacing: .1em;
+  margin-bottom: 15px;
+  text-transform: uppercase; 
+}
+.mm-recentlyviewed__products {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -5px;
+}
