@@ -85,7 +85,16 @@
     },
     "content_for_index": [
 
-    ]
+    ],
+    "recurpay_onetime_label": "One-Time Purchase",
+    "recurpay_subscription_label": "Subscribe Now and Save",
+    "recurpay_label_description": "Lock in and never run out of supplies",
+    "recurpay_dropdown_label": "Deliver Every",
+    "recurpay_button": "Subscribe Now",
+    "recurpay_brand_color": "#000000",
+    "recurpay_border_color": "#000000",
+    "recurpay_button_color": "#ffffff",
+    "recurpay_button_bg": "#000000"
   },
   "presets": {
     "Default": {
