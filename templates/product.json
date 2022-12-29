@@ -68,26 +68,6 @@
       "settings": {
       }
     },
-    "product-recommendations": {
-      "type": "marmeto-product-recommendations",
-      "settings": {
-        "enable_product_recommendations": true,
-        "title": "You may also like"
-      }
-    },
-    "product-upsell": {
-      "type": "marmeto-upsell",
-      "settings": {
-        "enable_product_upselling": true,
-        "title": "Upsell Products"
-      }
-    },
-    "recently-viewed-products": {
-      "type": "marmeto-recently-viewed-products",
-      "settings": {
-        "title": "Recently viewed"
-      }
-    },
     "16723096345f500e11": {
       "type": "apps",
       "blocks": {
@@ -113,13 +93,33 @@
       ],
       "settings": {
       }
+    },
+    "product-recommendations": {
+      "type": "marmeto-product-recommendations",
+      "settings": {
+        "enable_product_recommendations": true,
+        "title": "You may also like"
+      }
+    },
+    "product-upsell": {
+      "type": "marmeto-upsell",
+      "settings": {
+        "enable_product_upselling": true,
+        "title": "Upsell Products"
+      }
+    },
+    "recently-viewed-products": {
+      "type": "marmeto-recently-viewed-products",
+      "settings": {
+        "title": "Recently viewed"
+      }
     }
   },
   "order": [
     "main",
+    "16723096345f500e11",
     "product-recommendations",
     "product-upsell",
-    "recently-viewed-products",
-    "16723096345f500e11"
+    "recently-viewed-products"
   ]
 }
