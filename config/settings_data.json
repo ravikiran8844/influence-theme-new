@@ -16,15 +16,50 @@
     "social_snapchat_link": "",
     "social_youtube_link": "",
     "social_vimeo_link": "",
+    "recurpay_onetime_label": "One-Time Purchase",
+    "recurpay_subscription_label": "Subscribe Now and Save",
+    "recurpay_label_description": "Lock in and never run out of supplies",
+    "recurpay_dropdown_label": "Deliver Every",
+    "recurpay_button": "Subscribe Now",
+    "recurpay_brand_color": "#000000",
+    "recurpay_border_color": "#000000",
+    "recurpay_button_color": "#ffffff",
+    "recurpay_button_bg": "#000000",
     "sections": {
       "announcment-bar": {
         "type": "announcment-bar",
+        "blocks": {
+          "b65b6ae8-934d-4c00-bb22-0bdb5fd8ee19": {
+            "type": "announcement",
+            "settings": {
+              "announcement_bar_text": "<p>PROMOTE DISCOUNT SAVINGS<\/p>",
+              "announcement_link": ""
+            }
+          },
+          "7bc61157-a30f-4d25-bf7e-821bd91588b5": {
+            "type": "announcement",
+            "settings": {
+              "announcement_bar_text": "<p>PROMOTE DISCOUNT SAVINGS<\/p>",
+              "announcement_link": ""
+            }
+          },
+          "81d56ba1-b276-4f8a-bd9d-77dc34561573": {
+            "type": "announcement",
+            "settings": {
+              "announcement_bar_text": "<p>PROMOTE DISCOUNT SAVINGS<\/p>",
+              "announcement_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "b65b6ae8-934d-4c00-bb22-0bdb5fd8ee19",
+          "7bc61157-a30f-4d25-bf7e-821bd91588b5",
+          "81d56ba1-b276-4f8a-bd9d-77dc34561573"
+        ],
         "settings": {
           "show_announcement_bar": true,
           "announcement_bar_text_color": "#ffffff",
-          "announcement_bar_background_color": "#000000",
-          "announcement_bar_text": "<p>PROMOTE DISCOUNT SAVINGS<\/p>",
-          "announcement_link": ""
+          "announcement_bar_background_color": "#000000"
         }
       },
       "header": {
@@ -85,16 +120,7 @@
     },
     "content_for_index": [
 
-    ],
-    "recurpay_onetime_label": "One-Time Purchase",
-    "recurpay_subscription_label": "Subscribe Now and Save",
-    "recurpay_label_description": "Lock in and never run out of supplies",
-    "recurpay_dropdown_label": "Deliver Every",
-    "recurpay_button": "Subscribe Now",
-    "recurpay_brand_color": "#000000",
-    "recurpay_border_color": "#000000",
-    "recurpay_button_color": "#ffffff",
-    "recurpay_button_bg": "#000000"
+    ]
   },
   "presets": {
     "Default": {
