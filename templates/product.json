@@ -101,17 +101,17 @@
         "title": "You may also like"
       }
     },
+    "recently-viewed-products": {
+      "type": "marmeto-recently-viewed-products",
+      "settings": {
+        "title": "Recently viewed"
+      }
+    },
     "product-upsell": {
       "type": "marmeto-upsell",
       "settings": {
         "enable_product_upselling": true,
         "title": "Upsell Products"
-      }
-    },
-    "recently-viewed-products": {
-      "type": "marmeto-recently-viewed-products",
-      "settings": {
-        "title": "Recently viewed"
       }
     }
   },
@@ -119,7 +119,7 @@
     "main",
     "16723096345f500e11",
     "product-recommendations",
-    "product-upsell",
-    "recently-viewed-products"
+    "recently-viewed-products",
+    "product-upsell"
   ]
 }
