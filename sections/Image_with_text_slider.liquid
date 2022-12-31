@@ -1,7 +1,8 @@
 {% if section.blocks.size > 0 %}
   <div data-flickity='{ "cellAlign": "left", "contain": true, "draggable": true, "autoPlay": true, "pageDots": false}'>
     {% for block in section.blocks %}
-      <div class="image-text container image-text-{{block.id}}">
+      <div
+        class="image-text container image-text-{{block.id}}">
         <div class="flexbox flex">
           <div class="flexbox__item">
             <div class="image-text__image">

@@ -37,6 +37,7 @@
 {% endif %}
 
 {% style %}
+
   {% for block in section.blocks %}
     .heading-{{ block.id}}{
       color: {{ block.settings.heading_text_color }}
@@ -82,6 +83,7 @@
     height: 100%;
     padding: 20px;
   }
+
 
   @media only screen and (min-width: 990px) {
     .image-gallery .flexbox__item {

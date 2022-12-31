@@ -3,7 +3,7 @@
     {% for block in section.blocks %}
       {% if block.settings.image != null %}
         <div class="image-banner__image">
-          {% render 'image', class: "" mobileSrc: block.settings.mobile_image, desktopSrc: block.settings.image %}
+          {% render 'image', mobileSrc: block.settings.mobile_image, desktopSrc: block.settings.image %}
         {% endif %}
         <div class="image-banner__content flex {{block.settings.text_position}}">
           <div>
