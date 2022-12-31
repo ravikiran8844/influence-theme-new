@@ -28,6 +28,34 @@
     "sections": {
       "announcment-bar": {
         "type": "announcment-bar",
+        "blocks": {
+          "0b10b91b-d458-416e-8647-de1431c184cd": {
+            "type": "announcement",
+            "settings": {
+              "announcement_bar_text": "<p>PROMOTE DISCOUNT SAVINGS<\/p>",
+              "announcement_link": ""
+            }
+          },
+          "5e4052d2-e1d4-4589-a33a-ee7dee791dbe": {
+            "type": "announcement",
+            "settings": {
+              "announcement_bar_text": "<p>PROMOTE DISCOUNT SAVINGS<\/p>",
+              "announcement_link": ""
+            }
+          },
+          "57717201-d483-43f4-b4be-1d44d6d92ef8": {
+            "type": "announcement",
+            "settings": {
+              "announcement_bar_text": "<p>PROMOTE DISCOUNT SAVINGS<\/p>",
+              "announcement_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "0b10b91b-d458-416e-8647-de1431c184cd",
+          "5e4052d2-e1d4-4589-a33a-ee7dee791dbe",
+          "57717201-d483-43f4-b4be-1d44d6d92ef8"
+        ],
         "settings": {
           "show_announcement_bar": true,
           "announcement_bar_text_color": "#ffffff",
