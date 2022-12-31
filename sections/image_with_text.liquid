@@ -1,6 +1,7 @@
-<div class="image-text container image-text-{{section.id}}">
+<div class="image-text container image-text-{{section.id}} page-width">
   <div class="flexbox flex">
-    <div class="flexbox__item">
+    <div
+      class="flexbox__item">
       <div class="image-text__image">
         {% assign mobileImage = section.settings.image_mobile | default: 'section.settings.image' %}
         {% render 'image', class: 'image', mobileSrc: mobileImage, desktopSrc: section.settings.image %}
@@ -31,6 +32,7 @@
   .image-text-{{ section.id}}{
     background-color: {{ section.settings.background_color}}
     ;
+    padding-bottom: 20px;
   }
   .image-text__content {
     height: 100%;
@@ -58,7 +60,16 @@
     }
     .flexbox__item {
       width: 100%;
-      padding: 0 10px;
+    }
+    .image-text__image {
+      width: 100%;
+      padding: 20px;
+    }
+    .image {
+      width: 100%;
+    }
+    .richtext__heading {
+      font-size: 2rem;
     }
   }
 </style>
