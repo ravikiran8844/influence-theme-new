@@ -32,21 +32,21 @@
           "0b10b91b-d458-416e-8647-de1431c184cd": {
             "type": "announcement",
             "settings": {
-              "announcement_bar_text": "<p>PROMOTE DISCOUNT SAVINGS<\/p>",
-              "announcement_link": ""
+              "announcement_bar_text": "<p>EXTRA 20% OFF SALE<\/p>",
+              "announcement_link": "shopify:\/\/collections\/all"
             }
           },
           "5e4052d2-e1d4-4589-a33a-ee7dee791dbe": {
             "type": "announcement",
             "settings": {
-              "announcement_bar_text": "<p>PROMOTE DISCOUNT SAVINGS<\/p>",
+              "announcement_bar_text": "<p>FREE DELIVERY FOR ORDERS OVER Rs 1500\/-<\/p>",
               "announcement_link": ""
             }
           },
           "57717201-d483-43f4-b4be-1d44d6d92ef8": {
             "type": "announcement",
             "settings": {
-              "announcement_bar_text": "<p>PROMOTE DISCOUNT SAVINGS<\/p>",
+              "announcement_bar_text": "<p>Buy 1 Get 3 Free<\/p>",
               "announcement_link": ""
             }
           }
