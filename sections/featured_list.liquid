@@ -29,6 +29,10 @@
               {% endfor %}
             {% endunless %}
             {% form 'product', product %}
+              <input
+                type="hidden"
+                name="quantity"
+                value="1">
               <div>
                 <button type="submit" class="btn button button--secondary">Add to Cart</button>
               </div>
