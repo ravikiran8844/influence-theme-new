@@ -26,6 +26,13 @@
       "settings": {
       }
     },
+    "5b375a87-6f72-4c9c-919b-d3553f649465": {
+      "type": "featured_products_list",
+      "settings": {
+        "collection_id": "new-arrivals",
+        "product_limit": 6
+      }
+    },
     "6e2d7f39-2fe0-4859-a63f-0f15112e2201": {
       "type": "richtext",
       "settings": {
@@ -162,13 +169,6 @@
       "settings": {
         "collection_id": "new-arrivals",
         "product_limit": 8
-      }
-    },
-    "5b375a87-6f72-4c9c-919b-d3553f649465": {
-      "type": "featured_products_list",
-      "settings": {
-        "collection_id": "new-arrivals",
-        "product_limit": 6
       }
     },
     "2a2942de-3da0-42f2-8552-7265d17ce581": {
@@ -459,11 +459,11 @@
   },
   "order": [
     "69cb824d-c165-4c33-8858-b278f2c31b2f",
+    "5b375a87-6f72-4c9c-919b-d3553f649465",
     "6e2d7f39-2fe0-4859-a63f-0f15112e2201",
     "b3e02cd7-67e9-410e-859f-41d0c859496e",
     "0b17c2bf-46ba-4d50-8b94-5fa58d66b36f",
     "38717e48-a87d-415b-ab02-c5295a8901d3",
-    "5b375a87-6f72-4c9c-919b-d3553f649465",
     "2a2942de-3da0-42f2-8552-7265d17ce581",
     "ec71c9d4-105e-4ee2-9645-91b57c12def0",
     "662b57ed-0892-4464-a961-d4e5e3326e39",
