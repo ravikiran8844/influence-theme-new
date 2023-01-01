@@ -68,7 +68,7 @@
           "type": "icon-with-text",
           "settings": {
             "icon": "{{ product.metafields.custom.icon_1.value }}",
-            "text": "Icon Text{{ product.metafields.custom.icon_text_1.value }}"
+            "text": "{{ product.metafields.custom.icon_text_1.value }}"
           }
         }
       },
