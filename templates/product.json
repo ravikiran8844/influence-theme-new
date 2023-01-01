@@ -67,7 +67,8 @@
         "4d11bb68-4646-419a-821e-56e04725a3b0": {
           "type": "icon-with-text",
           "settings": {
-            "text": "Icon Text"
+            "icon": "{{ product.metafields.custom.icon_1.value }}",
+            "text": "Icon Text{{ product.metafields.custom.icon_text_1.value }}"
           }
         }
       },
