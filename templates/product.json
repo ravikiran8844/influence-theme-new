@@ -46,12 +46,6 @@
             "content": "",
             "page": ""
           }
-        },
-        "3d3b970e-0039-45ad-a675-2fdedb66845f": {
-          "type": "text",
-          "settings": {
-            "text": "Text block"
-          }
         }
       },
       "block_order": [
@@ -62,8 +56,23 @@
         "47197933-10ed-4897-b5b3-ea86c8dbc316",
         "f7d2b054-c286-4af8-a2f3-fe81caf51439",
         "db43d764-3d5f-44ed-9dde-5a85aa996b98",
-        "c07829f2-8c50-4a37-9931-ed0bf5ee1178",
-        "3d3b970e-0039-45ad-a675-2fdedb66845f"
+        "c07829f2-8c50-4a37-9931-ed0bf5ee1178"
+      ],
+      "settings": {
+      }
+    },
+    "78b38b96-7526-48e4-961f-59e42cee16a0": {
+      "type": "icon-with-text",
+      "blocks": {
+        "4d11bb68-4646-419a-821e-56e04725a3b0": {
+          "type": "icon-with-text",
+          "settings": {
+            "text": "Icon Text"
+          }
+        }
+      },
+      "block_order": [
+        "4d11bb68-4646-419a-821e-56e04725a3b0"
       ],
       "settings": {
       }
@@ -117,6 +126,7 @@
   },
   "order": [
     "main",
+    "78b38b96-7526-48e4-961f-59e42cee16a0",
     "16723096345f500e11",
     "product-recommendations",
     "recently-viewed-products",
