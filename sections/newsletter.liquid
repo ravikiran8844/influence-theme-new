@@ -1,7 +1,8 @@
 {% if section.settings.sub_heading != blank and section.settings.heading != blank %}
   <div class="flex flex-column align-center justify-center news-letter__{{section.id}} {{section.settings.text_alignment}}">
     <div>
-      <h3 class="mb-15 text-color_{{section.id}}">{{ section.settings.sub_heading }}</h3>
+      <h3
+        class="mb-15 text-color_{{section.id}}">{{ section.settings.sub_heading }}</h3>
       <h2 class="mb-20 text-color_{{section.id}}">{{ section.settings.heading }}</h2>
       {% form 'customer' %}
         <div class="email flex align-center mb-20 justify-center">
@@ -42,6 +43,7 @@
   .news-letter-input {
     min-height: 4.6rem;
     padding: 10px;
+    background: transparent;
   }
   .btn {
     margin-top: 0

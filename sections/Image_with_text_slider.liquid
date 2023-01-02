@@ -35,6 +35,9 @@
 {% endif %}
 
 <style>
+  .container {
+    padding: 0;
+  }
   .image-text-{{ block.id}}{
     background-color: {{ block.settings.background_color}}
     ;
@@ -48,7 +51,6 @@
     flex-direction: column;
   }
   .flexbox {
-    gap: 3%;
     flex-direction: {{ block.settings.image_alignment}}
     ;
     width: 100vw;
@@ -61,12 +63,12 @@
 
   @media screen and (max-width:990px) {
     .flexbox {
-      gap: 3%;
       flex-direction: column;
     }
     .flexbox__item {
       width: 100%;
       padding: 0 10px;
+
     }
   }
 </style>
