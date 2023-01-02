@@ -84,6 +84,13 @@
               "logo_size_mobile": 140
             }
           },
+          "65cd2660-fa15-4e00-9c88-29b09e0f43bb": {
+            "type": "newsletter-section",
+            "settings": {
+              "ns_heading": "Newsletter",
+              "ns_text": ""
+            }
+          },
           "11838948-79b7-41f2-aaf0-58d8c23ed50b": {
             "type": "footer-links",
             "settings": {
@@ -91,26 +98,22 @@
               "footer_links": "main-menu"
             }
           },
-          "8443c894-3061-42b6-b0c5-320a91213bfe": {
-            "type": "text-section",
+          "f193d678-59d9-4631-bcc9-d436df4ffde2": {
+            "type": "social-section",
             "settings": {
-              "text_section_heading": "Text",
-              "text_section_content": "<p>Share store details, promotions, or brand content with your customers.<\/p>"
-            }
-          },
-          "65cd2660-fa15-4e00-9c88-29b09e0f43bb": {
-            "type": "newsletter-section",
-            "settings": {
-              "ns_heading": "Newsletter",
-              "ns_text": ""
+              "icon_heading": "SOCIAL MEDIA",
+              "facebook_url": "https:\/\/facebook.com",
+              "instagram_url": "https:\/\/instagram.com",
+              "twitter_url": "https:\/\/twitter.com",
+              "tiktok_url": "https:\/\/tiktok.com"
             }
           }
         },
         "block_order": [
           "ad256c76-d0a5-405b-90ea-b3fdd5f6ff04",
+          "65cd2660-fa15-4e00-9c88-29b09e0f43bb",
           "11838948-79b7-41f2-aaf0-58d8c23ed50b",
-          "8443c894-3061-42b6-b0c5-320a91213bfe",
-          "65cd2660-fa15-4e00-9c88-29b09e0f43bb"
+          "f193d678-59d9-4631-bcc9-d436df4ffde2"
         ],
         "settings": {
           "footer_background_color": "#261d09",
