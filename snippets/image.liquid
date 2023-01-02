@@ -67,12 +67,3 @@ Usage:
     height="{{ desktopSrc.width | divided_by: desktopSrc.aspect_ratio | round }}"
     alt="{{ alt | default: desktopSrc.alt | escape }}">
 </picture>
-
-<style>
-  img {
-    transition: 0.5s all ease-in-out;
-  }
-  img:hover {
-    transform: scale(0.9);
-  }
-</style>

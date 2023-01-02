@@ -21,10 +21,26 @@
 </div>
 
 <style>
-  .button:hover {
+  .primary-button {
+    background: #fff;
+    border: 2px solid #fff;
+    color: black;
+  }
+  .primary-button:hover {
     background: transparent;
     border: 2px solid #fff;
     color: #fff;
+  }
+
+  .secondary-button {
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+  }
+  .secondary-button:hover {
+    background: #fff;
+    border: 2px solid #fff;
+    color: black;
   }
   .text-light {
     color: #ffffff;
@@ -73,16 +89,16 @@
                 "type": "url", "id": "button_link1", "label": "Shop Latest"}, {
                 "type": "select", "id": "button1_color", "label": "Button 1 Color", "options": [
                   {
-                    "label": "Primary", "value": "button--primary"}, {
-                    "value": "button--secondary", "label": "Secondary"}
-                ], "default": "button--secondary"}, {
+                    "label": "Primary", "value": "primary-button"}, {
+                    "value": "secondary-button", "label": "Secondary"}
+                ], "default": "primary-button"}, {
                 "type": "text", "id": "button_text2", "label": "Button 2 text", "default": "Best Selling"}, {
                 "type": "url", "id": "button_link2", "label": "Shop all"}, {
                 "type": "select", "id": "button2_color", "label": "Button 2 Color", "options": [
                   {
-                    "label": "Primary", "value": "button--primary"}, {
-                    "value": "button--secondary", "label": "Secondary"}
-                ], "default": "button--secondary"}, {
+                    "label": "Primary", "value": "primary-button"}, {
+                    "value": "secondary-button", "label": "Secondary"}
+                ], "default": "secondary-button"}, {
                 "type": "select", "id": "text_position", "label": "Text overlay position", "options": [
                   {
                     "value": "align-start justify-start", "label": "Top left"}, {
