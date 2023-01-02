@@ -4,7 +4,9 @@
       {% for block in section.blocks %}
         {% if block.settings.logo != blank %}
           <div class="footer__image footer-item">
-            {% render 'image', class: 'image', mobileSrc: block.settings.logo, desktopSrc: block.settings.logo %}
+            <a href="/">
+              {% render 'image', class: 'image', mobileSrc: block.settings.logo, desktopSrc: block.settings.logo %}
+            </a>
           </div>
         {% endif %}
         {% if block.settings.links_heading != blank %}

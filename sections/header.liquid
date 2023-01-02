@@ -1,7 +1,6 @@
 <div class="header-container_{{section.id}}">
   <div class="flex-container">
-    <div
-      class="flex-items flex {{section.settings.logo_position}}">
+    <div class="flex-items flex {{section.settings.logo_position}}">
       <div id="mobile-menu" class="mobile_nav align-center">
         <button id="hamburger">
           <svg
@@ -14,7 +13,9 @@
       {% if section.settings.image != blank %}
         <div class="flex-items__logo">
           <div class="justify-center align-center">
-            {% render 'image', class: 'logo', mobileSrc: , desktopSrc: section.settings.image %}
+            <a href="/">
+              {% render 'image', class: 'logo', mobileSrc: , desktopSrc: section.settings.image %}
+            </a>
           </div>
         </div>
       {% endif %}
