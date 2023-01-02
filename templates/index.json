@@ -15,7 +15,7 @@
             "button1_color": "button--secondary",
             "button_text2": "SHOP ALL",
             "button_link2": "",
-            "button2_color": "button--secondary",
+            "button2_color": "secondary-button",
             "text_position": "align-end justify-end"
           }
         }
