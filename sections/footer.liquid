@@ -38,12 +38,39 @@
                   type="email"
                   name="contact[email]" />
                 <input
-                  class="button button--primary"
+                  class="button button--secondary"
                   type="submit"
                   value="Sign up" /></div>
             {% endform %}
           </div>
         {% endif %}
+        <div>
+          {% if block.settings.icon_heading != blank %}
+            <h3 class="icon-heading">{{ block.settings.icon_heading }}</h3>
+          {% endif %}
+          <div class="flex align-center">
+            {% if block.settings.facebook_url != blank %}
+              <div class="footer-icon">
+                {% render 'icon' with "facebook" %}
+              </div>
+            {% endif %}
+            {% if block.settings.instagram_url != blank %}
+              <div class="footer-icon">
+                {% render 'icon' with "instagram" %}
+              </div>
+            {% endif %}
+            {% if block.settings.tiktok_url != blank %}
+              <div class="footer-icon">
+                {% render 'icon' with "tiktok" %}
+              </div>
+            {% endif %}
+            {% if block.settings.twitter_url != blank %}
+              <div class="footer-icon">
+                {% render 'icon' with "twitter" %}
+              </div>
+            {% endif %}
+          </div>
+        </div>
       {% endfor %}
     </div>
     <div>
@@ -54,6 +81,15 @@
 
 
 {% style %}
+  .icon-heading {
+    Color: #fff;
+  }
+  .footer-icon {
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    margin: 5px;
+  }
   .footer {
     width: 100vw;
   }
@@ -213,6 +249,35 @@
             "type": "richtext",
             "id": "ns_text",
             "label": "Body Text"
+          }
+        ]
+      }, {
+        "type": "social-section",
+        "name": "Social Media",
+        "settings": [
+          {
+            "type": "text",
+            "id": "icon_heading",
+            "label": "Heading"
+          },
+          {
+            "type": "url",
+            "id": "facebook_url",
+            "label": "Facebook Link"
+          },
+          {
+            "type": "url",
+            "id": "instagram_url",
+            "label": "Instagram Link"
+          },
+          {
+            "type": "url",
+            "id": "twitter_url",
+            "label": "Twitter Link"
+          }, {
+            "type": "url",
+            "id": "tiktok_url",
+            "label": "Tiktok Link"
           }
         ]
       }

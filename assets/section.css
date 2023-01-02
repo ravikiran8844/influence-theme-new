@@ -108,3 +108,42 @@ padding: 30px 0;
   .collection-list--header{
     padding: 15px 0;
   }
+
+
+
+  /*Usp section */
+.usp-section .flexbox-item {
+  width: 50%;
+}
+
+.usp-item {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.usp-item__logo {
+  width: 50px;
+  height: 40px;
+  margin: 15px auto;
+}
+
+.usp-item__heading p,
+.usp-item__sub-heading p {
+  margin: 0 0 5px;
+}
+
+@media only screen and (min-width: 990px) {
+  .usp-section .flexbox-item {
+    width: 25%;
+    padding: 20px;
+  }
+  .usp-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+  }
+  .usp-item__logo {
+    margin: -5px 10px 0 0;
+  }
+}
