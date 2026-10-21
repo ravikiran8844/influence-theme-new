@@ -24,7 +24,7 @@
         <div class="flex-items__logo">
           <div class="justify-center align-center">
             <a href="/">
-              {% render 'image', class: 'logo', mobileSrc: , desktopSrc: section.settings.image %}
+              {% render 'image', class: 'logo', desktopSrc: section.settings.image %}
             </a>
           </div>
         </div>
@@ -220,4 +220,14 @@
       }
     ]
   }
-{% endschema %}
+{% endschema %}{%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% render 'image', class: 'logo', mobileSrc: , desktopSrc: section.settings.image
+    %}"
+  to: "{% render 'image', class: 'logo', desktopSrc: section.settings.image %}"
+  position: 1447..1518
+{%- endcomment -%}

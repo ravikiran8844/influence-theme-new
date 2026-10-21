@@ -7,7 +7,7 @@
       {% for item in cart.items %}
         <div class="cart-item grid__item">
           <div class="cart-image-card">
-            {% render 'image', class: '', mobileSrc: {{item.image}}, desktopSrc: {{item.image}} %}
+            {% render 'image', class: '', mobileSrc: item.image, desktopSrc: item.image %}
           </div>
           <div class="cart-content">
             <h4>{{ item.product_title }}</h4>
@@ -51,4 +51,15 @@
   .cart-item {
     max-width: 500px;
   }
-</style>
+</style>{%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% render 'image', class: '', mobileSrc: {{item.image}}, desktopSrc: {{item.image}}
+    %}"
+  to: "{% render 'image', class: '', mobileSrc: item.image, desktopSrc: item.image
+    %}"
+  position: 334..412
+{%- endcomment -%}

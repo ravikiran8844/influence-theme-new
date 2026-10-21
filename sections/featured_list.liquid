@@ -11,7 +11,7 @@
         {% for product in section.settings.collection_id.products limit: 4 %}
           <div class="product-card">
             <a href="{{product.url}}">
-              {% render 'image', class: '', mobileSrc: {{product.featured_image}}, desktopSrc: {{product.featured_image}} %}
+              {% render 'image', class: '', mobileSrc: product.featured_image, desktopSrc: product.featured_image %}
             </a>
             <h3>{{ product.title }}</h3>
             <p>{{ product.price | money_with_currency }}</p>
@@ -106,4 +106,15 @@
       }
     ]
   }
-{% endschema %}
+{% endschema %}{%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% render 'image', class: '', mobileSrc: {{product.featured_image}}, desktopSrc:
+    {{product.featured_image}} %}"
+  to: "{% render 'image', class: '', mobileSrc: product.featured_image, desktopSrc:
+    product.featured_image %}"
+  position: 758..860
+{%- endcomment -%}
